@@ -1,0 +1,9 @@
+
+.home-container{
+  color: white;
+  height: 110vh;
+  background-image: url("../../img/home-bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
