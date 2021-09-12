@@ -1,9 +1,37 @@
-
-.home-container{
+.home-container {
   color: white;
   height: 110vh;
   background-image: url("../../img/home-bg.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.btn {
+  margin-top: 25rem;
+}
+.sign-in-btn {
+  color: rgb(87, 6, 6);
+  text-decoration: none;
+  border: none transparent;
+  display: block;
+  position: relative;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 25px 80px 30px;
+  margin: 0 auto;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  box-shadow: 10px 6px 2px 10px black;
+}
+.sign-in-btn:active {
+  color: rgb(236, 86, 86);
+  box-shadow: none;
+  top: 6px;
+}
+.sign-in-btn:hover {
+  top: 2px;
+  box-shadow: 0 4px 30px 20px black;
+  border-radius: 20px;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
 }

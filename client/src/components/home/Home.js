@@ -4,23 +4,15 @@ import Nav from "../nav/Nav";
 function Home() {
   return (
     <div className="home-container">
-      <Nav/>
-      <table cellSpacing="20">
-        <thead>
-          <tr>
-            <th>WeLoveFitness</th>
-          </tr>
-        </thead>
-        <tbody>
-          <td>
-            <en>Love yourself enough to work harder </en>
-          </td>
-        </tbody>
-        <button>
-          <a href="./account">Sign Up!</a>
-        </button>
-      </table>
+      <Nav />
+
+      <button className="btn">
+        <a href="./account" className="sign-in-btn">
+          Sign Up!
+        </a>
+      </button>
     </div>
+    // <en>Love yourself enough to work harder </en>
   );
 }
 

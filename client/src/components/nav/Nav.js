@@ -1,11 +1,12 @@
 import React from "react";
-import "./nav.css"
+import "./nav.css";
 function Nav() {
   return (
     <div>
-      <h5>Home</h5>
-      <h5>About us</h5>
-      <h5>Contact</h5>
+      <h1 className="logo-item">WeLoveFitness</h1>
+      <h5 className="nav-item">Home</h5>
+      <h5 className="nav-item">About us</h5>
+      <h5 className="nav-item">Contact</h5>
     </div>
   );
 }

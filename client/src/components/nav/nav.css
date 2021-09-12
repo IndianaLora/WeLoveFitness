@@ -2,6 +2,6 @@
   margin: 0;
   padding: 0;
 }
-h5:hover {
+.nav-item:hover {
   color: orange;
 }
