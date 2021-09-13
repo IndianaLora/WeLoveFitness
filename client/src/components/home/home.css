@@ -7,11 +7,13 @@
   background-repeat: no-repeat;
 }
 .btn {
-  margin-top: 25rem;
+  margin-top: 30%;
+}
+a{
+  text-decoration: none;
+  color: rgb(87, 6, 6);
 }
 .sign-in-btn {
-  color: rgb(87, 6, 6);
-  text-decoration: none;
   border: none transparent;
   display: block;
   position: relative;
@@ -23,8 +25,8 @@
   border-bottom-left-radius: 10%;
   box-shadow: 10px 6px 2px 10px black;
 }
-.sign-in-btn:active {
-  color: rgb(236, 86, 86);
+.sign-in-btn a:active {
+  color: black;
   box-shadow: none;
   top: 6px;
 }
@@ -34,4 +36,5 @@
   border-radius: 20px;
   border-top-right-radius: 0%;
   border-bottom-left-radius: 0%;
+  transform: translate(10px,10px);
 }

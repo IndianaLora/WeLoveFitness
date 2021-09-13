@@ -5,12 +5,11 @@ function Home() {
   return (
     <div className="home-container">
       <Nav />
-
-      <button className="btn">
-        <a href="./account" className="sign-in-btn">
-          Sign Up!
-        </a>
-      </button>
+      <div className="btn">
+        <button className="sign-in-btn">
+          <a href="./account">Sign Up!</a>
+        </button>
+      </div>
     </div>
     // <en>Love yourself enough to work harder </en>
   );
