@@ -2,6 +2,29 @@
   margin: 0;
   padding: 0;
 }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-container {
+  display: flex;
+}
+.nav-item {
+  margin: 3rem;
+}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  margin: 3rem;
+}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  margin: 3rem;
+}
 .nav-item:hover {
-  color: orange;
+  transform: scale(1.2);
+  transition-duration: 1s;
+  transition-property: transform;
 }

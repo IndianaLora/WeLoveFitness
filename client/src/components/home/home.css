@@ -9,7 +9,7 @@
 .btn {
   margin-top: 30%;
 }
-a{
+.btn a {
   text-decoration: none;
   color: rgb(87, 6, 6);
 }
@@ -36,5 +36,5 @@ a{
   border-radius: 20px;
   border-top-right-radius: 0%;
   border-bottom-left-radius: 0%;
-  transform: translate(10px,10px);
+  transform: translate(10px, 10px);
 }
